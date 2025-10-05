@@ -1,0 +1,34 @@
+input[type="text"] {
+  border: 2px solid red;
+}
+
+ul > li {
+  color: blueviolet;
+}
+
+h1 + p {
+  background-color: chocolate;
+}
+
+a:hover {
+  color: chartreuse;
+}
+
+li:nth-child(2) {
+  background-color: yellow;
+}
+div:not(.class1) {
+  border: 2px dashed red;
+}
+.decorated::before {
+  content: "STAR🌴";
+  color: blue;
+}
+.decorated::after {
+  content: "STAR🌴";
+  color: blue;
+}
+p::first-letter {
+  font-size: 32px;
+  color: greenyellow;
+}
