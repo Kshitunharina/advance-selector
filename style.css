@@ -2,9 +2,15 @@ input[type="text"] {
   border: 2px solid red;
 }
 
-ul > li {
+/* ul > li {
   color: blueviolet;
+} */
+
+
+.parent > p {
+    color: red;
 }
+
 
 h1 + p {
   background-color: chocolate;
@@ -25,7 +31,7 @@ div:not(.class1) {
   color: blue;
 }
 .decorated::after {
-  content: "STAR🌴";
+  content: "🤩";
   color: blue;
 }
 p::first-letter {
